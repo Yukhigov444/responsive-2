@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton';
+	color: black;
+	font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+section {
+	padding-top: 50px;
+}
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto; /*Позиционирования по центу*/
+}
+.container2 {
+	max-width: 1164px;
+}
+.header {
+	background: url(header-bg.jpg) no-repeat center top / cover;
+	padding-top: 57px;
+	height: 900px;
+}
+header a {
+	color: #FFFFFF;
+}
+.logo {
+	margin: auto;
+	padding-bottom: 50px;
+}
+.menu {
+	display: flex;
+	margin-left: 20px;
+	padding-bottom: 30px;
+}
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+.menu li {
+	padding-bottom: 10px;
+	margin-right: 40px;
+}
+.tel {
+	font-size: 17px;
+	margin: auto;
+	letter-spacing: 0.1em;
+}
+.nav {
+	flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	padding-top: 17px;
+}
+.paragraf {
+	max-width: 100%;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+	line-height: 45px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+ .nav2 h1 {
+ 	max-width: 100%;
+	font-size: 50px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em;
+	line-height: 147px;
+	font-weight: bolder;
+}
+.nav2 .href {
+	display: block;
+	font-size: 17px;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	letter-spacing: 0.01em;
+	padding: 17px 47px;
+	width: 238px;
+}
+.nav2 {
+	padding-top: 220px;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+.desk-left {
+	padding-bottom: 30px;
+	max-width: 564px;
+}
+.desk-left p, .desk-right p  {
+	max-width: 100%;
+	text-align: justify;
+}
+.desk-right {
+	width: 564px;
+}
+
+.discription {
+	flex-wrap: wrap;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.discription p {	
+	font-family: 'Open Sans';
+	font-weight: 400;
+	line-height: 1.62em;
+}
+.gallery {
+	flex-wrap: wrap;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.podval {
+	max-width: 1170px;
+	margin: auto;
+}
+.container3 {
+	max-width: 543px;
+	display: flex;
+	justify-content: space-between;
+}
+.about {
+	max-width: 100%;
+}
+.img3 {
+	max-width: 100%;
+	margin: auto;
+}
+.img1, .img2 {
+	margin: auto;
+	padding-bottom: 20px;
+}
+@media only screen and (max-width: 460px) {
